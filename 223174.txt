@@ -1,0 +1,35 @@
+
+
+mkdir SI_2024_lab1_223174 -so ova pravime papka so toa ime
+cd SI_2024_lab1_223174 -se prefrluvame na taa papka
+git init -so ova go inicijalizirame lokalniot repozitorium
+git remote add origin https://github.com/AnaCvetkovik/SI_2024_lab1_223174.git - gi povrzuvame so remote repozitorium lokalniot koj go imame
+nano README.md kreirame datoteka -README.md
+git add README.md  -ja dodavame vo staged  faza datotekata
+git commit -m”Initial comit” -pravime prv  commit 
+git add SILab1Main.java SILab1_1.java SILab1_2.java -gi dodavame trite fajlovi  vo staged faza
+git commit -m”Add starter code” - pak pravime commit
+git push —all origin - so ova go sinhronizirame lokalniot so remote repozitoriun
+git checkout -b bug2 - pravime nova granka bug2 i se prefrluvame na istata
+git checkout -b bug1 - pravime uste edna granka i se prefrluvame na istata
+git add SILab1_1.java - go stavame pak vo staged faza 
+git commit -m “Fix wrong condition in filterOddLengthStrings” - pravime commit
+git checkout bug2 -  se prefrluvame na taa granka
+git add SILab1_2.java -go stavame pak vo staged faza
+git commit -m “Fix wrong condition in makeBigStringFrom” -pravime commit
+git checkout bug1 - se prefluvame na grankata
+git add SILab1Main.java  -go stavame pak vo staged faza
+git commit -m"Call method filterOddLengthStrings in main class." -pravime commit
+git checkout bug2 - se prefrluvame na grankata
+git add SILab1Main.java - -go stavame pak vo staged faza
+git commit -m"Call method makeBigStringGrom in main class in main class.”-pravite commit
+git push —all - go sinhronizirame lokalniot so remote repozitoriumot
+git checkout master - se prefrluvame na master grankata
+git merge bug1 - ja spojuvame grankata bug1 so master
+git push —all - go sinhronizirame lokalniot so remote repozitoriumot
+git checkout bug2 - se prefluvame na bug2
+git rebase master - pravime rebase na bug2 so master grankata no javuva konflikt
+git add SILab1Main.java -go stavame  vo staged faza git rebase —continue
+git checkout master - se prefrluvame na grankata master
+git merge bug2 - ja spojuvame bug2 so master
+git push —all —force - so ova gi dodavame site granki koi gi imame lokalno na remote repozitoriumot 

@@ -1,0 +1,35 @@
+commit 91063125fda5b1ad5b73954380bf125f4cb95c0b
+Author: Ana Cvetkovik <ana.cvetkovik@gmail.com>
+Date:   Sat Apr 13 13:54:59 2024 +0200
+
+    Call method makeBigStringFrom in main class.
+
+commit 46d179bcc52c683d7b124c32123938dd38d7e3fc
+Author: Ana Cvetkovik <ana.cvetkovik@gmail.com>
+Date:   Sat Apr 13 13:46:02 2024 +0200
+
+    Fix wrong condition in makeBigStringForm
+
+commit 2795985c04b1f98240b16efcf600b37ec82b40f0
+Author: Ana Cvetkovik <ana.cvetkovik@gmail.com>
+Date:   Sat Apr 13 13:51:43 2024 +0200
+
+    Call method filterOddLengthStrings in main class.
+
+commit 465aac8d9de4911fc40593f737c99791e33d515c
+Author: Ana Cvetkovik <ana.cvetkovik@gmail.com>
+Date:   Sat Apr 13 13:41:32 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 9d444f803522ce6fd5f26a86ecccd4fae935ad02
+Author: Ana Cvetkovik <ana.cvetkovik@gmail.com>
+Date:   Sat Apr 13 13:32:25 2024 +0200
+
+    Add starter code
+
+commit 065720647799cda0e27484a31c81a5a5be77b9bc
+Author: Ana Cvetkovik <ana.cvetkovik@gmail.com>
+Date:   Sat Apr 13 13:15:57 2024 +0200
+
+    Initial commit
